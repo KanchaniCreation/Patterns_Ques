@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class RighrPascal {
     public static void main(String[] args){
-        for (int i=1;i<5;i++){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number");
+        int num = sc.nextInt();
+        for (int i=1;i<num;i++){
             for (int j =1;j<=i;j++) {
                 System.out.print("* ");
             }
@@ -8,7 +12,7 @@ public class RighrPascal {
         }
 
     
-    for (int i =4;i>1;i--){
+    for (int i =num-1;i>1;i--){
         for(int j=1;j<=i-1;j++){
             System.out.print("* ");
         }
