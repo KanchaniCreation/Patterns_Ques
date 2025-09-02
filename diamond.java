@@ -1,6 +1,6 @@
 public class diamond {
     public static void main(String[] args){
-for (int i=1;i<5;i++){
+for (int i=0;i<5;i++){
     for (int k=3;k>=i;k--){
         System.out.print(" ");
     }
@@ -9,7 +9,7 @@ for (int i=1;i<5;i++){
     }
     System.out.println();
 }
-for (int i=1; i<5;i++){
+for (int i=0; i<5;i++){
     for ( int k=1;k<=i;k++){
         System.out.print(" ");
     }
